@@ -1,0 +1,33 @@
+body {
+  background-color: #9d7cc5;
+}
+
+h1 {
+  color: gainsboro;
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  color: ivory;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+}
+h3 {
+  font-weight: bold;
+  font-size: large;
+  font-style: oblique;
+  text-align: center;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style: lower-roman;
+  font-weight: lighter;
+}
+dt {
+  font-style: italic;
+  font-weight: bold;
+  font-size: large;
+}

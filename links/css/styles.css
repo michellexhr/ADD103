@@ -1,0 +1,36 @@
+body {
+  background-color: blanchedalmond;
+  font-family: "Times New Roman", Times, serif;
+  color: brown;
+}
+nav,
+h1 {
+  text-align: center;
+}
+nav a {
+  font-size: larger;
+  color: blanchedalmond;
+  padding: 10px, 20px;
+  background-color: lightsalmon;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 25px;
+  border-radius: 30px;
+  border: 2px solid lightsalmon;
+}
+a {
+  color: lightsalmon;
+  font-size: large;
+}
+h2 {
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: x-large;
+}
+nav a:hover {
+  color: lightsalmon;
+  background-color: blanchedalmond;
+}
+ul li a {
+  color: maroon;
+}

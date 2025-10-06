@@ -1,0 +1,65 @@
+body {
+  background: blanchedalmond;
+  font-family: cursive;
+}
+img {
+  width: 65%;
+  display: block;
+  margin: 20px auto;
+  padding: 12px;
+  background: maroon;
+  border: 5px solid navy;
+  border-radius: 50%;
+}
+ul {
+  font-family: revert;
+  font-size: large;
+  color: navy;
+}
+ul li {
+  color: maroon;
+  font-size: medium;
+  font-family: monospace;
+  font-style: italic;
+  list-style: square;
+}
+h1,
+h2 {
+  color: brown;
+  font-family: sans-serif;
+  font-style: oblique;
+  text-align: center;
+}
+h2 {
+  font-size: xx-large;
+}
+dd {
+  color: rebeccapurple;
+  font-family: revert;
+  font-style: oblique;
+  font-size: large;
+  text-align: left;
+}
+dl {
+  color: darksalmon;
+  font-size: xx-large;
+  font-family: sans-serif;
+  text-align: center;
+}
+ol {
+  color: deeppink;
+  font-size: large;
+  font-family: revert;
+}
+ol li {
+  color: hotpink;
+  font-style: italic;
+  font-size: medium;
+  font-family: monospace;
+  list-style: lower-roman;
+}
+p {
+  color: saddlebrown;
+  font-size: medium;
+  font-style: italic;
+}

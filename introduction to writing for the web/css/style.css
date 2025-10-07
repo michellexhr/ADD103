@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #fff8f8;
+  color: #333;
+}
+h1 {
+  color: #d63384;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+h2 {
+  color: #ff6f91;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+h3 {
+  color: #d63384;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+ul {
+  margin-left: 20px;
+}

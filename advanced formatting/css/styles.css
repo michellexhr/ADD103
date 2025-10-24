@@ -1,0 +1,39 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+#column {
+  -moz-column-count: 4;
+  -moz-column-gap: 16px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 16px;
+  column-count: 4;
+  column-gap: 16px;
+  text-shadow: 8px 12px 8px #7e29ff;
+}
+#col {
+  border: 5px solid aqua;
+  background-color: #ffffff;
+}
+#te {
+  text-shadow: 12px 8px 10px #ffffff;
+}
+#cont {
+  -webkit-border-radius: 15px 15px 22px 22px;
+  border-radius: 15px 15px 22px 22px;
+  outline: 5px dashed #ffffff;
+  outline-offset: 3px;
+  height: 50px;
+  width: 450px;
+}
+#borderimg {
+  border: 20px solid transparent;
+  padding: 15px;
+  border-image: url(../images/triangles-1430105_640.png) 25 round;
+  width: 380px;
+  box-shadow: 15px 10px 8px 6px #1fffff;
+}

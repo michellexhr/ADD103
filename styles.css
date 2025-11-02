@@ -1,0 +1,48 @@
+a {
+  border: 2px solid blanchedalmond;
+  border-radius: 5px;
+  color: blanchedalmond;
+  background-color: crimson;
+  padding: 1.5px;
+  text-align: center;
+}
+a:hover {
+  color: crimson;
+  background-color: blanchedalmond;
+}
+body {
+  background-image: url(fern.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: blanchedalmond;
+}
+h1 {
+  font-family: monospace;
+  text-align: center;
+  font-size: 3em;
+  text-decoration: underline;
+  background-color: transparent;
+  border: 4px dashed;
+  padding: 2px;
+  border-color: crimson;
+  width: 666px;
+  margin: auto;
+}
+dt {
+  margin-bottom: 12px;
+  margin-top: 12px;
+  font-family: cursive;
+  font-size: large;
+  font-style: italic;
+}
+dd {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1em;
+  color: blanchedalmond;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: large;
+}

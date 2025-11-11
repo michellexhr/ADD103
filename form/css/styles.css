@@ -1,0 +1,63 @@
+body {
+  background-color: blanchedalmond;
+}
+h1 {
+  color: purple;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  text-align: center;
+}
+h2,
+h3 {
+  color: rgb(18, 75, 18);
+  font-family: cursive;
+  font-style: oblique;
+}
+form {
+  padding: 25px;
+  color: darkblue;
+  width: 90%;
+  margin: 20px auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input[type="text"] {
+  width: 50%;
+  padding: 8px;
+  border-radius: 15px;
+  border: 2px solid darkblue;
+  margin: 8px;
+  background-color: lightpink;
+  color: black;
+}
+textarea {
+  border-radius: 12px;
+  padding: 5px;
+  border: 2px solid darkblue;
+}
+form select {
+  font-size: 1.1em;
+  padding: 3px;
+}
+form input:focus {
+  background-color: lavender;
+}
+form input {
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+form h3 {
+  margin: 15px 12px 12px -13px;
+}
+input[type="email"] {
+  background-color: lightpink;
+  border-radius: 12px;
+  border: 2px solid darkblue;
+  color: black;
+  margin: 8px;
+  padding: 8px;
+  width: 80%;
+}
+input[type="date"] {
+  background-color: lightpink;
+  color: black;
+}

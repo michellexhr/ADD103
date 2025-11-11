@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form</h1>
+      <form>
+        <h2>Things about you</h2>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required autofocus /><br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" required autofocus /><br />
+        <h3>Year in college</h3>
+        <input type="radio" id="fm" name="year" value="freshman" />
+        <label for="fm">Freshman</label><br />
+        <input type="radio" id="sp" name="year" value="sophomore" />
+        <label for="sp">Sophomore</label><br />
+        <input type="radio" id="jr" name="year" value="junior" />
+        <label for="jr">Junior</label><br />
+        <input type="radio" id="sr" name="year" value="senior" />
+        <label for="sr">Senior</label><br />
+        <h3>Favorite color</h3>
+        <input type="checkbox" id="bl" name="color" value="blue" />
+        <label for="bl">Blue</label><br />
+        <input type="checkbox" id="gr" name="color" value="green" />
+        <label for="gr">Green</label><br />
+        <input type="checkbox" id="pk" name="color" value="pink" />
+        <label for="pk">Pink</label><br />
+        <input type="checkbox" id="blk" name="color" value="black" />
+        <label for="blk">Black</label><br />
+        <label for="other">Other:</label>
+        <input type="text" id="other" name="color" required autofocus />
+        <h3>Date filled out</h3>
+        <label for="date">Date filled out</label>
+        <input type="date" id="date" name="date" />
+        <h3>Email</h3>
+        <label for="email">Enter your email:</label>
+        <input type="email" name="email" id="email" />
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  font-family: cursive;
+  font-size: x-large;
+  background-color: blanchedalmond;
+  color: rgb(3, 61, 3);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 12px;
+  padding: 10px;
+  width: 100%;
+  background: rgb(3, 61, 3);
+  box-sizing: border-box;
+}
+.grid-container > div {
+  background: rgb(3, 61, 3);
+  padding: 8px;
+  min-height: 80px;
+  width: 100%;
+}
+.grid-container > div > img {
+  width: 90%;
+  margin: 12px auto;
+  display: block;
+  cursor: pointer;
+}
+#large {
+  box-sizing: border-box;
+  padding: 20px;
+  background: rgb(3, 61, 3);
+  width: 60%;
+  margin: 10px auto;
+  display: block;
+}
+.container {
+  width: 90%;
+  margin: 15px auto;
+  max-width: 1400px;
+  min-width: 500px;
+  overflow: auto;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  min-height: 80px;
+}
+h1 {
+  text-align: center;
+  color: rgb(3, 61, 3);
+}
+img {
+  width: 500px;
+}

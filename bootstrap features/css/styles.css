@@ -1,0 +1,17 @@
+body {
+  font-family: cursive;
+  background-color: blanchedalmond;
+}
+h1,
+h2 {
+  color: rgb(5, 45, 5);
+  font-family: monospace;
+}
+img[alt="oranges"] {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+img[alt="strawberry"] {
+  margin-bottom: 10px;
+}

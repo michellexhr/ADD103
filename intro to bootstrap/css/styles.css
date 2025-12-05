@@ -1,0 +1,15 @@
+.container-fluid {
+  width: 90%;
+  margin: 12px auto;
+}
+.display-1 {
+  text-align: center;
+}
+.text-success {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 15px;
+}
+.text-uppercase {
+  text-align: center;
+}
